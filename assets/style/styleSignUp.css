@@ -1,0 +1,138 @@
+body {
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#loginForm {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.subtitulo {
+    font-weight: 400;
+    font-size: 16px;
+    color: #989898;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #A7A9AC;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+#email,
+#telefone {
+    width: 49%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #A7A9AC;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: inline-block;
+
+
+}
+
+#senha,
+#confirmarSenha {
+    width: 49%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #A7A9AC;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+
+button {
+    width: 100%;
+    height: 45px;
+    background: #00A335;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #989898
+}
+
+#ancora {
+    color: #00A335;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    #loginForm {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .subtitulo {
+        font-size: 14px;
+    }
+
+    input {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    button {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .login {
+        font-size: 12px;
+        color: #989898
+    }
+}

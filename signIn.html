@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./assets/style/styleSignIn.css" />
+    <script src="./assets/scripts/signInScript.js" defer></script>
+  </head>
+  <body>
+    <div id="loginForm" rome="main">
+      <h1 class="titulo">Sign In</h1>
+      <p class="subtitulo">Insira suas crendenciais para accesar sua conta</p>
+      <form>
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Informe seu e-mail"
+          aria-label="E-mail"
+          required
+        />
+        <label for="password"></label>
+        <input
+          type="password"
+          id="senha"
+          placeholder="Insira sua senha"
+          aria-label="Senha"
+          />
+        <button id="btn-entrar" type="submit" aria-label="Entrar">Entrar</button>
+      </form>
+    </div>
+    <p class="cadastrese">
+      Esqueceu a sua senha? <a id="ancora" href="#" aria-label="redefinir a senha">Redefinir senha</a>
+    </p>
+    <p class="novaContaText">
+      Ainda não tem uma conta?
+      <a id="novaContaAncora" href="./signUp.html" aria-label="Cadastre-se">Cadastre-se</a>
+    </p>
+  </body>
+</html>

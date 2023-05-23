@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link href="./assets/style/styleSignUp.css" rel="stylesheet" />
+    <script src="./assets/scripts/signUpScript.js" defer></script>
+  </head>
+  <body>
+    <div id="loginForm" role="main">
+      <h1 class="titulo">Sign Up</h1>
+      <p class="subtitulo">Insira suas crendenciais para criar uma conta</p>
+      <form>
+        <label for="empresa"></label>
+        <input type="text" id="empresa" placeholder="Empresa" aria-label="insere Empresa" />
+        <label for="cnpj"></label>
+        <input type="number" id="cnpj" placeholder="CNPJ" aria-label="insere CNPJ"/>
+        <label for="responsavel"></label>
+        <input type="text" id="responsavel" placeholder="Responsável" aria-label="Insere responsavel"/>
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="E-mail" aria-label="insere e-mail"/>
+        <label for="telefone"></label>
+        <input type="tel" id="telefone" placeholder="Telefone" aria-label="insere Telefone"/>
+        <label for="senha"></label>
+        <input  type="password" id="senha" placeholder="Senha" aria-label="insere senha" />
+        <label for="confirmarSenha"></label>
+        <input type="password" id="confirmarSenha" placeholder="Confirmar Senha" aria-label="Confirmar senha" />
+        <button id="btn-criar-conta" type="submit" aria-label="botão Criar conta">Criar Conta</button>
+      </form>
+    </div>
+    <p class="login">
+        Ja possui uma conta?
+        <a id="ancora" href="./signIn.html" aria-label="Realizar login">Realizar login</a>
+      </p>
+  </body>
+</html>
